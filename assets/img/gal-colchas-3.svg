@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600" role="img" aria-label="Colchas — imagem de exemplo, substitua por foto real">
+  <rect width="600" height="600" fill="#FBF9F4"/>
+  <path d="M611.5,155.0 Q611.5,155.0 582.9,224.2 Q554.2,293.3 485.0,341.4 Q415.9,389.5 345.4,342.7 Q275.0,295.9 224.5,225.5 Q174.0,155.0 219.8,79.8 Q265.5,4.7 340.7,-27.8 Q415.9,-60.3 482.0,-18.8 Q548.2,22.7 579.9,88.9 Z" fill="#F4B77E" opacity="0.16"/>
+  <path d="M490.5,317.8 Q490.5,317.8 456.5,396.1 Q422.6,474.4 344.3,489.9 Q266.0,505.4 201.8,475.8 Q137.6,446.3 118.4,382.0 Q99.2,317.8 121.4,256.6 Q143.6,195.4 204.8,150.2 Q266.0,104.9 336.4,141.0 Q406.8,177.1 448.6,247.5 Z" fill="#E4863F" opacity="0.22"/>
+  <path d="M487.4,365.6 Q487.4,365.6 452.9,441.8 Q418.4,518.1 342.2,546.5 Q265.9,574.8 172.0,564.1 Q78.1,553.4 51.4,459.5 Q24.7,365.6 54.3,274.6 Q84.0,183.6 175.0,160.2 Q265.9,136.8 340.2,176.9 Q414.4,217.1 450.9,291.3 Z" fill="#F4B77E" opacity="0.28"/>
+  
+  <g transform="translate(230 216) scale(2.9)"><path d="M6 30 h36 M8 30 v-8 a4 4 0 0 1 4-4 h24 a4 4 0 0 1 4 4 v8 M6 30 v6 M42 30 v6 M14 22 v-4 M34 22 v-4" fill="none" stroke="#4a443c" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></g>
+  <text x="300" y="554" text-anchor="middle" font-family="Georgia, serif" font-size="34" letter-spacing="2" fill="#4a443c">Colchas</text>
+</svg>

@@ -139,25 +139,52 @@ const CONFIG = {
     }
   }
 
+  /* ---------- Filtro da galeria (abas por categoria) ---------- */
+  const galleryItems = $$("[data-gallery] .gallery-item");
+  const filterWrap = $("[data-gallery-filters]");
+  const emptyMsg = $("[data-gallery-empty]");
+
+  function applyFilter(cat) {
+    let visiveis = 0;
+    galleryItems.forEach((it) => {
+      const match = cat === "todos" || it.getAttribute("data-cat") === cat;
+      it.classList.toggle("is-hidden", !match);
+      if (match) visiveis++;
+    });
+    if (emptyMsg) emptyMsg.hidden = visiveis > 0;
+  }
+
+  if (filterWrap) {
+    $$(".filter-btn", filterWrap).forEach((btn) => {
+      btn.addEventListener("click", () => {
+        $$(".filter-btn", filterWrap).forEach((b) => {
+          b.classList.remove("is-active");
+          b.setAttribute("aria-selected", "false");
+        });
+        btn.classList.add("is-active");
+        btn.setAttribute("aria-selected", "true");
+        applyFilter(btn.getAttribute("data-filter"));
+      });
+    });
+  }
+
   /* ---------- Lightbox da galeria ---------- */
   const lightbox = $("[data-lightbox]");
-  if (lightbox) {
-    const items = $$("[data-gallery] .gallery-item");
+  if (lightbox && galleryItems.length) {
     const imgEl = $("[data-lightbox-img]", lightbox);
+    let list = [];      // itens visíveis no momento da abertura
     let index = 0;
     let lastFocused = null;
 
-    const sources = items.map((it) => ({
-      src: it.getAttribute("data-full"),
-      alt: ($("img", it) || {}).alt || "Imagem ampliada",
-    }));
+    const visibleItems = () => galleryItems.filter((it) => !it.classList.contains("is-hidden"));
 
     function render() {
-      imgEl.src = sources[index].src;
-      imgEl.alt = sources[index].alt;
+      imgEl.src = list[index].getAttribute("data-full");
+      imgEl.alt = ($("img", list[index]) || {}).alt || "Imagem ampliada";
     }
-    function open(i) {
-      index = i;
+    function open(clicked) {
+      list = visibleItems();
+      index = Math.max(0, list.indexOf(clicked));
       lastFocused = document.activeElement;
       render();
       lightbox.hidden = false;
@@ -172,11 +199,12 @@ const CONFIG = {
       if (lastFocused) lastFocused.focus();
     }
     function move(step) {
-      index = (index + step + sources.length) % sources.length;
+      if (!list.length) return;
+      index = (index + step + list.length) % list.length;
       render();
     }
 
-    items.forEach((it, i) => it.addEventListener("click", () => open(i)));
+    galleryItems.forEach((it) => it.addEventListener("click", () => open(it)));
     $$("[data-lightbox-close]", lightbox).forEach((b) => b.addEventListener("click", close));
     $("[data-lightbox-prev]", lightbox).addEventListener("click", () => move(-1));
     $("[data-lightbox-next]", lightbox).addEventListener("click", () => move(1));

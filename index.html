@@ -106,7 +106,7 @@
     <section class="about" id="sobre">
       <div class="container about-inner">
         <div class="about-art reveal">
-          <img src="assets/img/gal-2.svg" alt="Peça artesanal da Maricota Decór (imagem de exemplo)" loading="lazy">
+          <img src="assets/img/gal-colchas-2.svg" alt="Peça artesanal da Maricota Decór (imagem de exemplo)" loading="lazy">
           <span class="about-badge">desde 1994</span>
         </div>
         <div class="about-text reveal">
@@ -192,18 +192,33 @@
         <div class="section-head reveal">
           <p class="eyebrow">Inspiração</p>
           <h2>Galeria</h2>
-          <p class="section-sub">Alguns dos nossos trabalhos. Clique para ampliar.</p>
+          <p class="section-sub">Alguns dos nossos trabalhos. Filtre por categoria e clique para ampliar.</p>
         </div>
+
+        <div class="gallery-filters reveal" role="tablist" aria-label="Filtrar galeria por categoria" data-gallery-filters>
+          <button class="filter-btn is-active" role="tab" aria-selected="true" data-filter="todos">Todos</button>
+          <button class="filter-btn" role="tab" aria-selected="false" data-filter="colchas">Colchas</button>
+          <button class="filter-btn" role="tab" aria-selected="false" data-filter="cortinas">Cortinas</button>
+          <button class="filter-btn" role="tab" aria-selected="false" data-filter="persianas">Persianas</button>
+          <button class="filter-btn" role="tab" aria-selected="false" data-filter="almofadas">Almofadas</button>
+          <button class="filter-btn" role="tab" aria-selected="false" data-filter="dormitorios">Dormitórios</button>
+        </div>
+
         <div class="gallery-grid" data-gallery>
-          <button class="gallery-item reveal" data-full="assets/img/gal-1.svg"><img src="assets/img/gal-1.svg" alt="Trabalho da Maricota Decór 1" loading="lazy"></button>
-          <button class="gallery-item reveal" data-full="assets/img/gal-2.svg"><img src="assets/img/gal-2.svg" alt="Trabalho da Maricota Decór 2" loading="lazy"></button>
-          <button class="gallery-item reveal" data-full="assets/img/gal-3.svg"><img src="assets/img/gal-3.svg" alt="Trabalho da Maricota Decór 3" loading="lazy"></button>
-          <button class="gallery-item reveal" data-full="assets/img/gal-4.svg"><img src="assets/img/gal-4.svg" alt="Trabalho da Maricota Decór 4" loading="lazy"></button>
-          <button class="gallery-item reveal" data-full="assets/img/gal-5.svg"><img src="assets/img/gal-5.svg" alt="Trabalho da Maricota Decór 5" loading="lazy"></button>
-          <button class="gallery-item reveal" data-full="assets/img/gal-6.svg"><img src="assets/img/gal-6.svg" alt="Trabalho da Maricota Decór 6" loading="lazy"></button>
-          <button class="gallery-item reveal" data-full="assets/img/gal-7.svg"><img src="assets/img/gal-7.svg" alt="Trabalho da Maricota Decór 7" loading="lazy"></button>
-          <button class="gallery-item reveal" data-full="assets/img/gal-8.svg"><img src="assets/img/gal-8.svg" alt="Trabalho da Maricota Decór 8" loading="lazy"></button>
+          <button class="gallery-item reveal" data-cat="colchas" data-full="assets/img/gal-colchas-1.svg"><img src="assets/img/gal-colchas-1.svg" alt="Colcha artesanal da Maricota Decór 1" loading="lazy"></button>
+          <button class="gallery-item reveal" data-cat="colchas" data-full="assets/img/gal-colchas-2.svg"><img src="assets/img/gal-colchas-2.svg" alt="Colcha artesanal da Maricota Decór 2" loading="lazy"></button>
+          <button class="gallery-item reveal" data-cat="colchas" data-full="assets/img/gal-colchas-3.svg"><img src="assets/img/gal-colchas-3.svg" alt="Colcha artesanal da Maricota Decór 3" loading="lazy"></button>
+          <button class="gallery-item reveal" data-cat="cortinas" data-full="assets/img/gal-cortinas-1.svg"><img src="assets/img/gal-cortinas-1.svg" alt="Cortina artesanal da Maricota Decór 1" loading="lazy"></button>
+          <button class="gallery-item reveal" data-cat="cortinas" data-full="assets/img/gal-cortinas-2.svg"><img src="assets/img/gal-cortinas-2.svg" alt="Cortina artesanal da Maricota Decór 2" loading="lazy"></button>
+          <button class="gallery-item reveal" data-cat="persianas" data-full="assets/img/gal-persianas-1.svg"><img src="assets/img/gal-persianas-1.svg" alt="Persiana da Maricota Decór 1" loading="lazy"></button>
+          <button class="gallery-item reveal" data-cat="persianas" data-full="assets/img/gal-persianas-2.svg"><img src="assets/img/gal-persianas-2.svg" alt="Persiana da Maricota Decór 2" loading="lazy"></button>
+          <button class="gallery-item reveal" data-cat="almofadas" data-full="assets/img/gal-almofadas-1.svg"><img src="assets/img/gal-almofadas-1.svg" alt="Almofada decorativa da Maricota Decór 1" loading="lazy"></button>
+          <button class="gallery-item reveal" data-cat="almofadas" data-full="assets/img/gal-almofadas-2.svg"><img src="assets/img/gal-almofadas-2.svg" alt="Almofada decorativa da Maricota Decór 2" loading="lazy"></button>
+          <button class="gallery-item reveal" data-cat="almofadas" data-full="assets/img/gal-almofadas-3.svg"><img src="assets/img/gal-almofadas-3.svg" alt="Almofada decorativa da Maricota Decór 3" loading="lazy"></button>
+          <button class="gallery-item reveal" data-cat="dormitorios" data-full="assets/img/gal-dormitorios-1.svg"><img src="assets/img/gal-dormitorios-1.svg" alt="Dormitório completo da Maricota Decór 1" loading="lazy"></button>
+          <button class="gallery-item reveal" data-cat="dormitorios" data-full="assets/img/gal-dormitorios-2.svg"><img src="assets/img/gal-dormitorios-2.svg" alt="Dormitório completo da Maricota Decór 2" loading="lazy"></button>
         </div>
+        <p class="gallery-empty" data-gallery-empty hidden>Ainda não há fotos nesta categoria.</p>
       </div>
     </section>
 

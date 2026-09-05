@@ -1,9 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600" role="img" aria-label="Maricota — imagem de exemplo, substitua por foto real">
-  <rect width="600" height="600" fill="#FBF9F4"/>
-  <path d="M505.3,244.1 Q505.3,244.1 474.5,298.4 Q443.8,352.7 389.5,374.4 Q335.2,396.1 274.9,380.4 Q214.6,364.7 202.4,304.4 Q190.2,244.1 201.9,183.3 Q213.6,122.5 274.4,103.2 Q335.2,83.9 387.8,111.3 Q440.5,138.7 472.9,191.4 Z" fill="#F4B77E" opacity="0.16"/>
-  <path d="M429.4,416.3 Q429.4,416.3 405.7,484.9 Q381.9,553.6 313.3,579.2 Q244.7,604.7 180.5,574.8 Q116.2,544.9 88.4,480.6 Q60.5,416.3 79.0,342.7 Q97.5,269.1 171.1,230.9 Q244.7,192.7 314.0,235.2 Q383.3,277.8 406.4,347.0 Z" fill="#E4863F" opacity="0.22"/>
-  <path d="M508.0,178.2 Q508.0,178.2 491.2,251.0 Q474.4,323.9 401.6,346.8 Q328.7,369.8 268.3,334.5 Q207.8,299.2 172.9,238.7 Q137.9,178.2 161.6,106.5 Q185.4,34.9 257.1,0.9 Q328.7,-33.1 404.4,-3.0 Q480.0,27.0 494.0,102.6 Z" fill="#F4B77E" opacity="0.28"/>
-  
-  <g transform="translate(230 230) scale(2.9)"><circle cx="24" cy="24" r="5" fill="none" stroke="#4a443c" stroke-width="2.2"/><path d="M24 19 v-8 M24 29 v8 M19 24 h-8 M29 24 h8 M20 20 l-6-6 M28 20 l6-6 M20 28 l-6 6 M28 28 l6 6" fill="none" stroke="#4a443c" stroke-width="2.2" stroke-linecap="round"/></g>
-  <text x="300" y="554" text-anchor="middle" font-family="Georgia, serif" font-size="34" letter-spacing="2" fill="#4a443c">Maricota</text>
-</svg>

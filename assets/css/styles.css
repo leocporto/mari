@@ -215,7 +215,20 @@ section[id], header[id] { scroll-margin-top: calc(var(--header-h) + 12px); }
 
 /* ---------- Galeria ---------- */
 .gallery { padding: clamp(3rem, 8vw, 6rem) 0; }
+.gallery-filters {
+  display: flex; flex-wrap: wrap; justify-content: center; gap: .6rem;
+  margin: 0 auto clamp(1.8rem, 4vw, 2.6rem); max-width: 720px;
+}
+.filter-btn {
+  border: 1.5px solid var(--line); background: #fff; color: var(--ink-soft);
+  padding: .5em 1.15em; border-radius: 999px; font-size: .9rem; letter-spacing: .03em;
+  transition: color .2s var(--ease), background .2s var(--ease), border-color .2s var(--ease), transform .2s var(--ease);
+}
+.filter-btn:hover { color: var(--terracota); border-color: var(--terracota); }
+.filter-btn.is-active { background: var(--terracota); border-color: var(--terracota); color: #fff; transform: translateY(-1px); }
+.gallery-empty { text-align: center; color: var(--ink-soft); padding: 1.5rem 0; }
 .gallery-grid { columns: 3; column-gap: clamp(.8rem, 2vw, 1.2rem); }
+.gallery-item.is-hidden { display: none; }
 .gallery-item {
   display: block; width: 100%; margin: 0 0 clamp(.8rem, 2vw, 1.2rem); padding: 0; border: 0; background: none;
   break-inside: avoid; border-radius: var(--radius); overflow: hidden; box-shadow: var(--shadow-soft);

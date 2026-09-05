@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600" role="img" aria-label="Persianas — imagem de exemplo, substitua por foto real">
+  <rect width="600" height="600" fill="#FBF9F4"/>
+  <path d="M355.0,468.3 Q355.0,468.3 334.7,557.6 Q314.3,646.9 225.0,652.1 Q135.7,657.3 52.6,645.9 Q-30.5,634.4 -70.1,551.3 Q-109.7,468.3 -71.9,383.4 Q-34.1,298.5 50.8,279.7 Q135.7,260.8 220.7,279.5 Q305.8,298.1 330.4,383.2 Z" fill="#9DBFC0" opacity="0.16"/>
+  <path d="M634.2,422.7 Q634.2,422.7 598.6,494.3 Q562.9,565.9 491.3,586.4 Q419.7,606.9 349.8,584.7 Q279.9,562.5 242.9,492.6 Q205.9,422.7 238.0,347.9 Q270.1,273.1 344.9,240.0 Q419.7,206.9 486.4,248.1 Q553.1,289.3 593.7,356.0 Z" fill="#5C8B8E" opacity="0.22"/>
+  <path d="M560.6,155.7 Q560.6,155.7 532.2,227.3 Q503.8,298.8 432.2,325.9 Q360.7,352.9 296.5,318.5 Q232.3,284.1 189.1,219.9 Q145.9,155.7 185.5,87.9 Q225.1,20.1 292.9,-8.0 Q360.7,-36.1 433.9,-13.4 Q507.1,9.3 533.9,82.5 Z" fill="#9DBFC0" opacity="0.28"/>
+  
+  <g transform="translate(230 216) scale(2.9)"><rect x="9" y="8" width="30" height="32" rx="2" fill="none" stroke="#4a443c" stroke-width="2.2"/><path d="M9 16 h30 M9 22 h30 M9 28 h30 M9 34 h30" stroke="#4a443c" stroke-width="1.8" stroke-linecap="round"/></g>
+  <text x="300" y="554" text-anchor="middle" font-family="Georgia, serif" font-size="34" letter-spacing="2" fill="#4a443c">Persianas</text>
+</svg>

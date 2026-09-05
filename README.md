@@ -39,7 +39,12 @@ As imagens de exemplo ficam em `assets/img/`. Para usar as fotos reais:
 - **Produtos:** substitua `prod-colchas.svg`, `prod-cortinas.svg`, `prod-persianas.svg`,
   `prod-almofadas.svg`, `prod-dormitorios.svg` (pode trocar por `.jpg`/`.png` — nesse caso,
   atualize o `src` da imagem no `index.html`).
-- **Galeria:** substitua `gal-1.svg` … `gal-8.svg`.
+- **Galeria (com filtro por categoria):** as imagens seguem o nome
+  `gal-<categoria>-<número>.svg` — ex.: `gal-colchas-1.svg`, `gal-almofadas-2.svg`.
+  Para adicionar uma foto a uma categoria, no `index.html` (seção **Galeria**) copie um
+  bloco `<button class="gallery-item" data-cat="colchas" ...>` e ajuste o `data-cat`
+  (colchas, cortinas, persianas, almofadas ou dormitorios) e o caminho da imagem. As abas
+  de filtro no topo da galeria funcionam sozinhas com base no `data-cat`.
 - **Logo/ilustração:** `brand-mark.svg` (a cômoda com o vaso). O nome "MARICOTA decór" é escrito
   como texto (não é imagem), então fica nítido em qualquer tamanho.
 

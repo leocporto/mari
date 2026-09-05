@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 520" role="img" aria-label="Cortinas — imagem de exemplo, substitua por foto real">
+  <rect width="600" height="520" fill="#FBF9F4"/>
+  <path d="M274.0,230.6 Q274.0,230.6 264.8,282.7 Q255.6,334.8 203.5,361.3 Q151.5,387.8 100.8,359.8 Q50.2,331.9 24.1,281.3 Q-2.1,230.6 22.8,178.8 Q47.7,126.9 99.6,100.8 Q151.5,74.7 207.0,97.1 Q262.5,119.6 268.2,175.1 Z" fill="#B8D3C1" opacity="0.16"/>
+  <path d="M326.0,290.2 Q326.0,290.2 298.7,349.1 Q271.5,408.0 212.6,422.5 Q153.6,437.0 86.7,430.5 Q19.8,424.0 0.2,357.1 Q-19.5,290.2 10.3,233.4 Q40.0,176.5 96.8,148.9 Q153.6,121.3 212.8,146.6 Q271.9,171.9 299.0,231.1 Z" fill="#83A07C" opacity="0.22"/>
+  <path d="M470.3,135.2 Q470.3,135.2 438.5,207.3 Q406.6,279.3 334.6,321.2 Q262.6,363.1 180.9,330.8 Q99.2,298.6 74.4,216.9 Q49.6,135.2 91.2,70.3 Q132.7,5.4 197.7,-15.9 Q262.6,-37.2 336.0,-24.4 Q409.5,-11.7 439.9,61.7 Z" fill="#B8D3C1" opacity="0.28"/>
+  
+  <g transform="translate(230 176) scale(2.9)"><path d="M8 8 h32 M11 8 c0 10 4 10 4 20 s-4 10-4 16 M19 8 c0 10 4 10 4 20 s-4 10 -4 16 M27 8 c0 10 4 10 4 20 s-4 10 -4 16 M35 8 c0 10 4 10 4 20 s-4 10 -4 16" fill="none" stroke="#4a443c" stroke-width="2.2" stroke-linecap="round"/></g>
+  <text x="300" y="474" text-anchor="middle" font-family="Georgia, serif" font-size="34" letter-spacing="2" fill="#4a443c">Cortinas</text>
+</svg>
