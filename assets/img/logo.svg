@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 680" fill="none" role="img" aria-label="Logo Maricota Decór: ilustração de uma cômoda com um vaso de flores e borboletas, e o nome MARICOTA decór">
+  <defs>
+    <linearGradient id="woodG" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#F3A857"/>
+      <stop offset="1" stop-color="#E07F35"/>
+    </linearGradient>
+    <linearGradient id="vaseG" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#A7CBB6"/>
+      <stop offset="1" stop-color="#7BAF93"/>
+    </linearGradient>
+  </defs>
+
+  <g stroke-linecap="round" stroke-linejoin="round">
+
+    <!-- ===== stems / twigs ===== -->
+    <g stroke="#3a3733" stroke-width="2" fill="none">
+      <path d="M316 210 C 300 150, 286 110, 268 74 C 262 62, 256 60, 250 64"/>
+      <path d="M322 210 C 320 150, 320 116, 322 78"/>
+      <path d="M328 210 C 344 150, 362 118, 388 86 C 396 76, 402 76, 408 82"/>
+      <path d="M332 210 C 350 160, 372 132, 400 116"/>
+      <path d="M312 210 C 300 168, 282 146, 258 138"/>
+      <path d="M320 210 C 322 176, 330 150, 344 128"/>
+    </g>
+
+    <!-- ===== butterfly left ===== -->
+    <g transform="translate(250 92) rotate(-12)">
+      <path d="M0 -12 C -1 -4, -1 8, 1 18" stroke="#3a3733" stroke-width="2" fill="none"/>
+      <path d="M-2 -22 C -6 -30, -12 -34, -18 -30" stroke="#3a3733" stroke-width="1.6" fill="none"/>
+      <path d="M0 -8 C -24 -26, -44 -16, -36 4 C -31 15, -11 11, 0 -1 Z" fill="#F0C24C" stroke="#3a3733" stroke-width="2"/>
+      <path d="M0 0 C -20 6, -30 24, -15 33 C -6 38, -1 22, 0 9 Z" fill="#3f78a8" stroke="#3a3733" stroke-width="2"/>
+      <ellipse cx="-16" cy="-6" rx="6" ry="4.5" fill="#E4863F"/>
+      <circle cx="-15" cy="18" r="3.4" fill="#d0432e"/>
+    </g>
+
+    <!-- ===== butterfly right ===== -->
+    <g transform="translate(396 84) rotate(16)">
+      <path d="M0 -12 C 1 -4, 1 8, -1 18" stroke="#3a3733" stroke-width="2" fill="none"/>
+      <path d="M2 -22 C 6 -30, 12 -34, 18 -30" stroke="#3a3733" stroke-width="1.6" fill="none"/>
+      <path d="M0 -8 C 24 -26, 44 -16, 36 4 C 31 15, 11 11, 0 -1 Z" fill="#F0C24C" stroke="#3a3733" stroke-width="2"/>
+      <path d="M0 0 C 20 6, 30 24, 15 33 C 6 38, 1 22, 0 9 Z" fill="#3f78a8" stroke="#3a3733" stroke-width="2"/>
+      <ellipse cx="16" cy="-6" rx="6" ry="4.5" fill="#E4863F"/>
+      <circle cx="15" cy="18" r="3.4" fill="#d0432e"/>
+    </g>
+
+    <!-- ===== vase ===== -->
+    <path d="M300 208 C 288 216, 284 240, 286 262 C 288 288, 300 306, 322 308 C 346 310, 362 292, 366 264 C 369 242, 364 218, 350 208 Z"
+          fill="url(#vaseG)" stroke="#4f7a63" stroke-width="2.4"/>
+    <ellipse cx="325" cy="208" rx="26" ry="6" fill="#93BEA6" stroke="#4f7a63" stroke-width="2.2"/>
+    <path d="M291 236 C 312 244, 336 244, 360 236" stroke="#4f7a63" stroke-width="1.8" fill="none" opacity=".6"/>
+    <path d="M289 256 C 311 264, 337 264, 362 256" stroke="#4f7a63" stroke-width="1.6" fill="none" opacity=".5"/>
+    <path d="M293 276 C 312 282, 336 282, 356 276" stroke="#4f7a63" stroke-width="1.4" fill="none" opacity=".4"/>
+    <g fill="#3a3733">
+      <circle cx="312" cy="296" r="1.6"/><circle cx="324" cy="299" r="1.6"/><circle cx="336" cy="296" r="1.6"/>
+    </g>
+
+    <!-- ===== dresser ===== -->
+    <!-- top surface -->
+    <path d="M196 320 C 268 310, 372 308, 456 316 C 452 326, 448 330, 444 332 C 366 326, 268 328, 206 336 C 200 332, 197 327, 196 320 Z"
+          fill="#F2A85B" stroke="#b56a29" stroke-width="2.4"/>
+    <!-- body -->
+    <path d="M206 336 C 268 330, 366 328, 444 334 C 448 372, 446 400, 440 420 C 366 414, 272 416, 214 422 C 210 400, 208 368, 206 336 Z"
+          fill="url(#woodG)" stroke="#b56a29" stroke-width="2.4"/>
+    <!-- center split + doors -->
+    <path d="M325 334 L325 419" stroke="#b56a29" stroke-width="1.8" opacity=".7"/>
+    <!-- knobs -->
+    <circle cx="315" cy="372" r="4" fill="#3a3733"/>
+    <circle cx="335" cy="372" r="4" fill="#3a3733"/>
+    <!-- legs -->
+    <g stroke="#b56a29" stroke-width="2.4" fill="none">
+      <path d="M224 420 C 218 446, 212 466, 208 480"/>
+      <path d="M262 421 C 262 446, 262 466, 262 480"/>
+      <path d="M388 421 C 390 446, 392 466, 394 480"/>
+      <path d="M430 420 C 438 446, 446 466, 452 480"/>
+    </g>
+
+  </g>
+
+  <!-- ===== wordmark ===== -->
+  <text x="322" y="586" text-anchor="middle" font-family="'Jost','Segoe UI',Arial,sans-serif" font-weight="400" font-size="86" letter-spacing="20" fill="#2f2b27">MARICOTA</text>
+  <text x="332" y="640" text-anchor="middle" font-family="'Jost','Segoe UI',Arial,sans-serif" font-weight="400" font-size="40" letter-spacing="16" fill="#8a8378">decór</text>
+</svg>
