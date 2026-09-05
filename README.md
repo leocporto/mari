@@ -51,15 +51,26 @@ Shopee e o e-mail `mh@maricotadecor.com.br`. Edite os links se mudarem.
 
 ## 🌐 Como publicar (gratuito)
 
-Qualquer uma das opções abaixo hospeda o site de graça:
+O site é estático, então qualquer hospedagem de sites estáticos funciona **de graça**.
+O arquivo `vercel.json` já deixa tudo pronto para o **Vercel** (recomendado).
 
-- **GitHub Pages:** em *Settings → Pages*, escolha a branch e a pasta raiz. O arquivo `CNAME`
-  já aponta para `maricotadecor.com.br` — depois é só configurar o DNS do domínio.
-- **Netlify** ou **Vercel:** arraste a pasta do projeto (ou conecte o repositório) e pronto.
-  Depois adicione o domínio `maricotadecor.com.br` nas configurações.
+### Vercel (recomendado) — passo a passo
+1. Crie uma conta grátis em <https://vercel.com> e conecte a sua conta do GitHub.
+2. **Add New → Project** e escolha o repositório `mari`.
+3. O Vercel detecta que é um site estático — é só clicar em **Deploy** (sem configurar build).
+4. Em poucos segundos o site fica no ar num endereço tipo `maricota.vercel.app` (para testar).
+5. Para usar o domínio próprio: **Settings → Domains → Add** e digite `maricotadecor.com.br`.
+   O Vercel mostra 2 registros de DNS para colar no painel onde o domínio está registrado.
+   HTTPS (cadeado) é ativado automaticamente e sem custo.
 
-Para ver localmente antes de publicar:
+> Domínios `.com.br` são geridos pelo **Registro.br** (<https://registro.br>). É lá, ou no
+> painel do provedor/hospedagem atual, que os registros de DNS acima devem ser configurados.
 
+### Alternativa: GitHub Pages
+Em *Settings → Pages*, escolha a branch e a pasta raiz. O arquivo `CNAME` já aponta para
+`maricotadecor.com.br`; depois é só configurar o DNS do domínio.
+
+### Ver localmente antes de publicar
 ```bash
 python3 -m http.server
 # abra http://localhost:8000
