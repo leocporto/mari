@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Maricota Decór">
+  <rect width="64" height="64" rx="14" fill="#FBF9F4"/>
+  <g transform="translate(32 33)">
+    <path d="M0 -2 C -20 -20, -34 -8, -24 10 C -16 22, -2 14, 0 2 Z" fill="#F0C24C" stroke="#3f3a34" stroke-width="2.2"/>
+    <path d="M0 -2 C 20 -20, 34 -8, 24 10 C 16 22, 2 14, 0 2 Z" fill="#E4863F" stroke="#3f3a34" stroke-width="2.2"/>
+    <circle cx="-16" cy="-2" r="3" fill="#5C8B8E"/>
+    <circle cx="16" cy="-2" r="3" fill="#5C8B8E"/>
+    <path d="M0 -2 L0 18" stroke="#3f3a34" stroke-width="2.4" stroke-linecap="round"/>
+  </g>
+</svg>

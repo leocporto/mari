@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="Almofadas — imagem de exemplo, substitua por foto real">
+  <rect width="800" height="600" fill="#FBF9F4"/>
+  <path d="M882.8,284.3 Q882.8,284.3 832.9,360.8 Q783.0,437.3 706.5,474.9 Q629.9,512.5 547.9,480.5 Q465.8,448.4 447.8,366.4 Q429.7,284.3 440.6,195.1 Q451.5,105.9 540.7,69.2 Q629.9,32.5 708.5,79.8 Q787.1,127.1 835.0,205.7 Z" fill="#F7D98A" opacity="0.16"/>
+  <path d="M692.6,197.4 Q692.6,197.4 663.5,258.2 Q634.4,319.0 573.6,355.1 Q512.7,391.2 446.4,360.6 Q380.1,330.0 366.7,263.7 Q353.2,197.4 381.5,145.9 Q409.8,94.4 461.3,53.2 Q512.7,11.9 570.3,47.1 Q627.8,82.3 660.2,139.9 Z" fill="#EEBF3E" opacity="0.22"/>
+  <path d="M636.6,163.9 Q636.6,163.9 612.6,233.5 Q588.5,303.1 518.9,339.0 Q449.3,374.9 384.1,334.6 Q318.9,294.3 288.3,229.1 Q257.7,163.9 280.3,90.7 Q302.8,17.4 376.1,7.0 Q449.3,-3.5 515.0,14.5 Q580.7,32.6 608.6,98.2 Z" fill="#F7D98A" opacity="0.28"/>
+  
+  <g transform="translate(330 230) scale(2.9)"><path d="M12 12 h24 a4 4 0 0 1 4 4 v16 a4 4 0 0 1 -4 4 h-24 a4 4 0 0 1 -4 -4 v-16 a4 4 0 0 1 4 -4 Z M8 12 l6 6 M40 12 l-6 6 M8 36 l6 -6 M40 36 l-6 -6" fill="none" stroke="#4a443c" stroke-width="2.2" stroke-linejoin="round" stroke-linecap="round"/></g>
+  <text x="400" y="554" text-anchor="middle" font-family="Georgia, serif" font-size="34" letter-spacing="2" fill="#4a443c">Almofadas</text>
+</svg>

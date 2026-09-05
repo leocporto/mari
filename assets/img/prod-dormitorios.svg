@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="Dormitórios — imagem de exemplo, substitua por foto real">
+  <rect width="800" height="600" fill="#FBF9F4"/>
+  <path d="M829.9,433.9 Q829.9,433.9 805.7,514.2 Q781.4,594.5 701.1,616.4 Q620.8,638.2 545.2,611.6 Q469.7,584.9 421.8,509.4 Q373.9,433.9 424.2,360.7 Q474.5,287.5 547.6,239.5 Q620.8,191.5 702.1,231.4 Q783.5,271.2 806.7,352.5 Z" fill="#EEC4B3" opacity="0.16"/>
+  <path d="M486.5,239.0 Q486.5,239.0 454.9,316.1 Q423.3,393.1 346.3,409.9 Q269.3,426.6 184.5,417.6 Q99.7,408.5 84.0,323.8 Q68.2,239.0 100.8,171.1 Q133.3,103.1 201.3,64.3 Q269.3,25.6 357.5,44.0 Q445.8,62.5 466.2,150.7 Z" fill="#D89A82" opacity="0.22"/>
+  <path d="M710.1,126.0 Q710.1,126.0 688.3,185.6 Q666.5,245.3 606.8,285.8 Q547.2,326.3 477.4,296.0 Q407.5,265.7 389.4,195.9 Q371.3,126.0 387.2,54.0 Q403.2,-18.0 475.2,-41.3 Q547.2,-64.7 609.3,-31.4 Q671.3,1.9 690.7,64.0 Z" fill="#EEC4B3" opacity="0.28"/>
+  
+  <g transform="translate(330 230) scale(2.9)"><path d="M6 34 v-8 a4 4 0 0 1 4-4 h28 a4 4 0 0 1 4 4 v8 M6 34 h36 M6 26 h36 M12 22 v-4 a2 2 0 0 1 2-2 h6 a2 2 0 0 1 2 2 v4 M26 22 v-4 a2 2 0 0 1 2-2 h6 a2 2 0 0 1 2 2 v4 M8 34 v4 M40 34 v4" fill="none" stroke="#4a443c" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></g>
+  <text x="400" y="554" text-anchor="middle" font-family="Georgia, serif" font-size="34" letter-spacing="2" fill="#4a443c">Dormitórios</text>
+</svg>

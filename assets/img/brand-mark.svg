@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 340 380" fill="none" role="img" aria-label="Ilustração Maricota Decór: uma cômoda com um vaso de flores e borboletas">
+  <defs>
+    <linearGradient id="wood" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#EE9A57"/>
+      <stop offset="1" stop-color="#DB7F3C"/>
+    </linearGradient>
+    <linearGradient id="vase" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#A9CBB8"/>
+      <stop offset="1" stop-color="#7FB197"/>
+    </linearGradient>
+  </defs>
+
+  <!-- soft ground line -->
+  <path d="M18 356 C 120 348, 240 352, 322 350" stroke="#D8D2C7" stroke-width="2.5" stroke-linecap="round"/>
+
+  <!-- stems -->
+  <g stroke="#3f3a34" stroke-width="2.2" stroke-linecap="round" fill="none">
+    <path d="M150 150 C 140 110, 132 92, 120 74"/>
+    <path d="M156 150 C 156 112, 156 96, 156 70"/>
+    <path d="M162 150 C 174 112, 184 98, 198 82"/>
+    <path d="M158 150 C 168 120, 182 108, 200 100"/>
+    <path d="M152 150 C 144 122, 132 112, 116 108"/>
+  </g>
+
+  <!-- little buds/flowers -->
+  <g>
+    <circle cx="120" cy="72" r="5.5" fill="#F0C24C"/>
+    <circle cx="156" cy="68" r="4.5" fill="#E4863F"/>
+    <circle cx="116" cy="107" r="4" fill="#E4863F"/>
+    <circle cx="200" cy="100" r="4" fill="#F0C24C"/>
+  </g>
+
+  <!-- butterfly left -->
+  <g transform="translate(96 96) rotate(-16)">
+    <path d="M0 0 C -20 -16, -34 -6, -26 10 C -20 20, -6 14, 0 4 Z" fill="#F0C24C" stroke="#3f3a34" stroke-width="1.6"/>
+    <path d="M0 4 C -16 12, -22 28, -10 34 C -2 38, 2 22, 0 10 Z" fill="#E4863F" stroke="#3f3a34" stroke-width="1.6"/>
+    <circle cx="-18" cy="2" r="2.4" fill="#5C8B8E"/>
+    <circle cx="-12" cy="24" r="2.2" fill="#5C8B8E"/>
+  </g>
+
+  <!-- butterfly right -->
+  <g transform="translate(206 92) rotate(18)">
+    <path d="M0 0 C 20 -16, 34 -6, 26 10 C 20 20, 6 14, 0 4 Z" fill="#F0C24C" stroke="#3f3a34" stroke-width="1.6"/>
+    <path d="M0 4 C 16 12, 22 28, 10 34 C 2 38, -2 22, 0 10 Z" fill="#E4863F" stroke="#3f3a34" stroke-width="1.6"/>
+    <circle cx="18" cy="2" r="2.4" fill="#5C8B8E"/>
+    <circle cx="12" cy="24" r="2.2" fill="#5C8B8E"/>
+    <path d="M0 2 C 2 -6, 6 -10, 12 -12" stroke="#3f3a34" stroke-width="1.4" fill="none" stroke-linecap="round"/>
+  </g>
+
+  <!-- vase -->
+  <path d="M138 150 C 136 178, 134 196, 150 210 C 162 220, 178 214, 184 196 C 188 182, 186 164, 182 150 Z" fill="url(#vase)" stroke="#4f7a63" stroke-width="2"/>
+  <path d="M136 152 C 152 160, 168 160, 184 152" stroke="#4f7a63" stroke-width="1.6" fill="none" opacity="0.6"/>
+  <path d="M139 168 C 154 176, 168 176, 181 168" stroke="#4f7a63" stroke-width="1.4" fill="none" opacity="0.45"/>
+  <ellipse cx="160" cy="150" rx="24" ry="5" fill="#8FBBA2" stroke="#4f7a63" stroke-width="1.6"/>
+
+  <!-- dresser body -->
+  <g stroke="#9c5a25" stroke-width="2.4">
+    <path d="M74 220 L246 220 L238 300 L82 300 Z" fill="url(#wood)"/>
+    <!-- legs -->
+    <path d="M92 300 L84 348" stroke-linecap="round"/>
+    <path d="M118 300 L114 344" stroke-linecap="round"/>
+    <path d="M228 300 L236 348" stroke-linecap="round"/>
+    <path d="M202 300 L206 344" stroke-linecap="round"/>
+    <!-- top surface -->
+    <path d="M70 214 L250 214 L246 224 L74 224 Z" fill="#F0A662"/>
+    <!-- drawer split -->
+    <path d="M84 260 L236 260" stroke-width="1.8" opacity="0.7"/>
+    <path d="M160 224 L160 296" stroke-width="1.6" opacity="0.5"/>
+  </g>
+  <!-- knobs -->
+  <circle cx="150" cy="243" r="3.4" fill="#3f3a34"/>
+  <circle cx="170" cy="243" r="3.4" fill="#3f3a34"/>
+</svg>
